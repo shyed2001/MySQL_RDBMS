@@ -1,6 +1,13 @@
 {
   "sqltools.connections": [
+<<<<<<< Updated upstream
     
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 485fd8f49db8dd6ccf49abd22804814854298ea4
+>>>>>>> Stashed changes
     {
       "mysqlOptions": {
         "authProtocol": "default"
@@ -9,6 +16,12 @@
       "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+      "name": "OfficeTesFirst",
+=======
+>>>>>>> Stashed changes
       "name": "FirstTest",
       "database": "airbnb",
       "username": "root",
@@ -23,6 +36,10 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "Test3",
+<<<<<<< Updated upstream
+=======
+>>>>>>> 485fd8f49db8dd6ccf49abd22804814854298ea4
+>>>>>>> Stashed changes
       "database": "airbnb",
       "username": "root",
       "password": "shyed2001"

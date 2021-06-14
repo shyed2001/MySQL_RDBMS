@@ -8,7 +8,23 @@ CREATE TABLE Users(
 );
 
 -- @block 
+<<<<<<< Updated upstream
 INSERT INTO Users (age, email, bio, country)
+=======
+<<<<<<< HEAD
+INSERT INTO Users (email, bio, country, age)
+VALUES 
+('HELLO@WORLDhi.COM.BD', 'I AM A MAN', 'BD', 25) , 
+('hello@hiWORLD.com.bd', 'iam a man', 'bd', 34) ,
+ ('HELLOhi@world.Com.bd', 'I AM A person', '88', 43),
+  ('Hihello@world.Com.bd', 'IAM A person', 'pr', 43);
+
+-- @block 
+INSERT INTO Users (email, bio, country)
+=======
+INSERT INTO Users (age, email, bio, country)
+>>>>>>> 485fd8f49db8dd6ccf49abd22804814854298ea4
+>>>>>>> Stashed changes
 VALUES 
 (7,'HELLO@WORLD.COM.org', 'I AM A MAN2', 'BD') , 
 (15,'hello@WORLD.com.net', 'i am a man22', 'bd') ,
@@ -29,10 +45,39 @@ VALUES
 
    -- @block 
  SELECT  id, email, country FROM Users
- ORDER BY id DESC;
+ ORDER BY id ASC ;
 
     -- @block 
  SELECT  id, email, country FROM Users
+<<<<<<< HEAD
+WHERE country = 'BD' 
+AND id > 5
+ORDER BY id DESC
+LIMIT 3; 
+
+
+     -- @block 
+ SELECT  id, email, country FROM Users
+WHERE country = 'BD' 
+AND id > 5
+OR id < 11
+ORDER BY id DESC
+LIMIT 4; 
+
+     -- @block 
+ SELECT  id, email, country FROM Users
+WHERE country = 'BD' 
+AND email LIKE 'h%'
+ORDER BY id DESC
+LIMIT 4; 
+
+     -- @block 
+ SELECT  id, email, country FROM Users
+WHERE country = 'BD' 
+AND email LIKE 'hello%'
+ORDER BY id DESC
+LIMIT 4; 
+=======
  ORDER BY id ASC
  LIMIT 3;
 
@@ -69,3 +114,7 @@ CREATE TABLE Bookings(
 -- @block dropping deleting tables or databases.
 DROP TABLE Users;
 DROP DATABASE airbnb;
+<<<<<<< Updated upstream
+=======
+>>>>>>> 485fd8f49db8dd6ccf49abd22804814854298ea4
+>>>>>>> Stashed changes
